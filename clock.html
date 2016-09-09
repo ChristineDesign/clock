@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>my clock from CodePen</title>
+    <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+</head>
+    
+            <style>
+
+            body {
+            background: black;
+            color: red;
+            font-size: 60pt;
+            font-family: 'Signika', sans-serif; 
+            }
+
+            #clock { 
+            text-shadow: 2px 2px 4px black;
+
+
+            }
+
+            p{background-color: #333333;
+            width: 500px;
+            box-shadow: inset 0px 0px 20px rgba(100,0,0, .75);
+            margin: 100px;
+            padding: 40px;
+            border: 10px solid black;
+            text-align: center;
+            color: red;
+            border-radius: 25px;
+            }
+
+
+            </style>
+    
+    
+    
+<body id="clock" onload="setInterval('updateTime()', 1000)">
+  
+
+
+
+
+</body>
+    <script src="clock.js"></script>
+</html>
